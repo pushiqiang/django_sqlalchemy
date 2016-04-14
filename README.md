@@ -5,8 +5,8 @@
 
 
 ####方法 1
-实现方法如下：
-　　把django/db/backends/mysql文件夹全部拷贝出来，放在项目的一个libs/mysql下面，然后修改base.py文件。
+实现方法如下：<br>
+　　把django/db/backends/mysql文件夹全部拷贝出来，放在项目的一个libs/mysql下面，然后修改base.py文件。<br>
 　　或者把django/db/backends/mysql文件夹在django/db/backends/下面复制为mysql_pool文件夹，将base.py中所以import中的mysql替换为mysql_pool，这样可以直接在settings.py中设置'ENGINE':'django.db.backends.mysql_pool'
 找到
 ```
@@ -97,8 +97,8 @@ def get_connection_params(self):
 以上两种方法都要改变django的代码，有一定入侵性，第二种方法改变要小一点
 
 
-django 1.7
-python 2.7
+django 1.7<br>
+python 2.7<br>
 sqlalchemy 1.0
 
 
