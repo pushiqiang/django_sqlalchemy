@@ -45,7 +45,7 @@ def get_connection_params(self):
 ```
 def get_connection_params(self):
     kwargs = {
-        #删除原来的两行代码
+        'charset':utf8
         }
         ...
 ```
@@ -88,7 +88,7 @@ init_pool()
 ```
 def get_connection_params(self):
     kwargs = {
-        #删除原来的两行代码
+        'charset':utf8
         }
         ...
 ```
